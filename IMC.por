@@ -1,11 +1,11 @@
-//
-//
-//	Descrição : Esse programa calcula o IMC. O texto pode ser exibido em português, inglês ou espanhol, dependendo da escolha do usuário
-// 	Autor : Anderson Damasceno
-//	Criado em : 16/06/2021
-//	Atualizado por: Anderson Damasceno
-//	Última atualização : 16/06/2021
-//
+/*
+*
+*	Descrição : Esse programa calcula o IMC. O texto pode ser exibido em português, inglês ou espanhol, dependendo da escolha do usuário
+* 	Autor : Anderson Damasceno
+*	Criado em : 16/06/2021
+*	Atualizado por: Anderson Damasceno
+*	Última atualização : 16/06/2021
+*/
 
 programa
 {
@@ -19,8 +19,8 @@ programa
 	funcao inicio()
 	{
 		cadeia tx_nome			//	Armazenará o nome do usuário.
-		real rl_idade = 0.0	//	Armazenará a idade do usuário.
-		real rl_altura = 0.0	//	Armazenará a altura do usuário.
+		real rl_idade = 0.0		//	Armazenará a idade do usuário.
+		real rl_altura = 0.0		//	Armazenará a altura do usuário.
 		real rl_peso = 0.0		//	Armazenará o peso do usuário.
 		real rl_imc			//	Armazenará o IMC quando for calculado.
 		logico lg_ok			//	Verificará se a entrada do usuário está dentro do padrão esperado.
@@ -202,7 +202,7 @@ programa
 						tx_entrada = " ano(s), seu IMC é "
 						pare
 					caso 2:
-						tx_entrada = " year(s)-old, your BMI is"
+						tx_entrada = " year(s)-old, your BMI is "
 						pare
 					caso contrario:
 						tx_entrada = " año(s), su IMC es "
@@ -258,14 +258,3 @@ programa
 	}
 
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 4635; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
